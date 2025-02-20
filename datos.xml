@@ -1,0 +1,24 @@
+<!DOCTYPE coches [
+<!ELEMENT coches (coche+)>
+<!ELEMENT coche (marca, modelo, color, matricula)>
+<!ELEMENT marca (#PCDATA)> 
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+]>
+<coches>
+  <coche>
+    <marca>Ferrari</marca>
+    <modelo>Novitec</modelo>
+    <color>Rojo</color>
+    <matricula>2364JKL</matricula>
+  </coche>
+  <coche>
+    <marca>porsche</marca>
+    <modelo>taycan-cross</modelo>
+    <color>Verde</color>
+    <matricula>5678DEF</matricula>
+  
+
+
+  </coches>
